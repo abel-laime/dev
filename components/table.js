@@ -37,7 +37,7 @@ export default function Table(){
             </thead>
             <tbody className="bg-gray-200">
                     {
-                        arr.map((obj, i) => <Tr {...obj} key={i} />)
+                        data.map((obj, i) => <Tr {...obj} key={i} />)
                     }
             </tbody>
         </table>

@@ -1,3 +1,4 @@
+const MONGO_URI = "mongodb+srv://sysadmin:Mongo.Aorus.1904@dev.w3wu6qr.mongodb.net/?retryWrites=true&w=majority"
 import mongoose from 'mongoose';
 
 const connectMongo = async () => {
